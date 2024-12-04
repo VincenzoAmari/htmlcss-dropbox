@@ -41,6 +41,7 @@ h1 {
 .card {
   padding-inline: 40px;
   flex-direction: column;
+  border: solid lightgray 1px;
   .button-primary {
     width: 100%;
     align-self: center;
@@ -93,6 +94,7 @@ h2 {
 .head-card {
   text-align: center;
   padding-block: 10px;
+  border: solid lightslategray 1px;
 }
 
 .card-section {
@@ -105,4 +107,9 @@ h2 {
 
 .button-card {
   margin-block: 30px;
+}
+
+.card-end {
+  padding-block: 50px;
+  border: solid lightgray 1px;
 }
