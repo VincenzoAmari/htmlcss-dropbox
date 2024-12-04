@@ -39,10 +39,14 @@ h1 {
 }
 
 .card {
-  padding-inline: 20px;
+  padding-inline: 40px;
   flex-direction: column;
   .button-primary {
+    width: 100%;
     align-self: center;
+  }
+  h4 {
+    padding-bottom: 30px;
   }
 }
 
@@ -97,4 +101,8 @@ h2 {
 
 .card-section_text {
   padding-block: 10px;
+}
+
+.button-card {
+  margin-block: 30px;
 }
