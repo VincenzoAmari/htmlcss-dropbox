@@ -23,3 +23,12 @@ html{
 .main-page{
     padding-inline: 20%;
 }
+
+.cards-container{
+    gap: 50px;
+}
+
+.card{
+    padding-inline: 20px;
+   
+}
