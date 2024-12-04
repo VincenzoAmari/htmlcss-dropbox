@@ -1,0 +1,16 @@
+html{
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.menu{
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+.menu-items{
+    gap: 50px;
+}
