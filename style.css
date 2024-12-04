@@ -1,34 +1,67 @@
-html{
-    font-family: sans-serif;
+html {
+  font-family: sans-serif;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-.menu{
-    justify-content: space-between;
-    padding: 30px 15px;
+.menu {
+  justify-content: space-between;
+  padding: 30px 15px;
 }
 
-.menu-items{
-    gap: 50px;
+.menu-items {
+  gap: 50px;
+  align-items: center;
 }
 
-.jumbo-page{
-    padding-inline: 10%;
-    background-color: #B4D0E6;
+h1 {
+  font-size: 8rem;
+  font-weight: bolder;
+  padding-block: 50px;
 }
 
-.main-page{
-    padding-inline: 20%;
+.jumbo-page {
+  padding-inline: 10%;
+  background: linear-gradient(#b4d0e6 80%, #fff 20%);
+  border-bottom: darkgray solid 1px;
+  padding-bottom: 100px;
 }
 
-.cards-container{
-    gap: 50px;
+.main-page {
+  padding-inline: 20%;
 }
 
-.card{
-    padding-inline: 20px;
-   
+.cards-container {
+  gap: 50px;
+}
+
+.card {
+  padding-inline: 20px;
+}
+
+.flex-basis-30 {
+  flex-basis: 30%;
+}
+
+.flex-basis-70 {
+  flex-basis: 70%;
+}
+
+.jumbo-description {
+  flex-direction: column;
+  gap: 30px;
+  font-size: 2rem;
+}
+
+.img-jumbo {
+  width: 70%;
+}
+
+.button-primary {
+  background-color: #0061fe;
+  color: #fff;
+  border: 0;
+  padding: 10px 15px;
 }
