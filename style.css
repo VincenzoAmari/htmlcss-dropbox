@@ -14,3 +14,12 @@ html{
 .menu-items{
     gap: 50px;
 }
+
+.jumbo-page{
+    padding-inline: 10%;
+    background-color: #B4D0E6;
+}
+
+.main-page{
+    padding-inline: 20%;
+}
