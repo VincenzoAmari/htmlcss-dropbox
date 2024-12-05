@@ -113,3 +113,16 @@ h2 {
   padding-block: 50px;
   border: solid lightgray 1px;
 }
+
+.explanatory-block {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.explanatory-card {
+  flex-direction: column;
+}
+
+.explanatory-img {
+  width: 33%;
+}
