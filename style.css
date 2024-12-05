@@ -135,29 +135,35 @@ h2 {
 
 footer {
   color: white;
-  background-color: #23272a;
+  background-color: #000000;
 }
 
 .footer {
   align-items: flex-start;
   justify-content: space-between;
 }
-.loghi_footer {
-  width: 20px;
-  filter: invert(1);
-}
 
 .end-footer {
-  border-top: solid #7289da 2px;
-  justify-content: space-between;
+  border-top: solid #9b9b9b 2px;
   padding-bottom: 50px;
-  .padding-block-footer {
-    padding-block: 50px;
+}
+.padding-block-footer {
+  padding-block: 50px;
+}
+
+.padding-inline-20 {
+  padding-inline: 25%;
+}
+
+.padding-text-foot {
+  padding-block: 50px;
+
+  h3 {
+    padding-bottom: 25px;
+    font-weight: bolder;
   }
 
-  .padding-text-foot {
-    p {
-      padding-block: 10px;
-    }
+  p {
+    padding-block: 10px;
   }
 }
