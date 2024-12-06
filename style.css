@@ -2,6 +2,12 @@ html {
   font-family: sans-serif;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
 .flex {
   display: flex;
 }
